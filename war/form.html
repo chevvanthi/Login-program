@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration page</title>
+</head>
+<script src="/script.js"></script>
+<body onload="return load()">
+<h2>Register Page</h2>
+
+  <br> Name :<input list="datalistname" type="text" name="name" id="name"  onblur="nameValidate()" onclick=" dropdown()" >
+  <datalist id ="datalistname"></datalist>
+  <span id="disname"></span>
+  
+  <br>Number:<input type="text"  name="number" id="number" onblur="numberValidate()">
+    <span id="disnumber"></span>
+  
+  <br>Email: <input type="text" name="email" id="email" onblur="return emailValidate()">
+      <span id="disemail"></span> 
+  
+  <br>City : <input type="text" name="city" id="city" onblur=" cityValidate()">
+        <span id="discity"></span>
+
+    
+    <br> <input type="button" value="Register" id="save" onclick="arrayStore()"><br>
+    
+    
+        <input type="button" value="print" id="print" onclick="print()"><br>
+        
+        <input type="button" value="Clear" id="clear" onclick="clearData()">
+        <p id="display"></p>
+        <table id="table" >  
+    
+        
+        <tr>
+         <td id="tname"></td>
+         <td id="tnumber"></td>
+         <td id="temail"></td>
+         <td id="tcity"></td>      
+        </tr>
+        <tr>
+    
+       
+        <td id="displayName"> </td>
+        <td id="displayNumber"></td>
+        <td id="displayEmail"></td>
+        <td id="displayCity"></td>
+        </tr>
+        </table>
+        
+        
+</body>
+</html>
