@@ -31,7 +31,8 @@ var namearr=[];
 	console.log("added something");
 
 	function load() {
-		document.getElementById("name").focus();}
+		document.getElementById("name").focus();
+		}
 	   
 	function nameValidate() {	    	
 	    
