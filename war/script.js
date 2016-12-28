@@ -31,6 +31,7 @@ var namearr=[];
 	console.log("added something");
 
 	function load() {
+		
 		document.getElementById("name").focus();
 		
 	}
