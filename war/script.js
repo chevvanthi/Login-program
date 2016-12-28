@@ -27,6 +27,9 @@ var namearr=[];
 		  this.email   =  email;
      	  this.city    =  city; 
 	}
+	
+	console.log("added something");
+	console.log("again added");
 
 	function load() {
 		document.getElementById("name").focus();}
