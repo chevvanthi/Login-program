@@ -28,7 +28,6 @@ var namearr=[];
      	  this.city    =  city; 
 	}
 	
-	console.log("added something");
 
 	function load() {
 		document.getElementById("name").focus();
