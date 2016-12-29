@@ -29,8 +29,7 @@ var namearr=[];
 	}
 	
 	console.log("added something");
-	console.log("last line deleted");
-    console.log("one line is adding....");
+
 	function load() {
 		
 		document.getElementById("name").focus();
