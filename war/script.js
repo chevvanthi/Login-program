@@ -28,12 +28,8 @@ var namearr=[];
      	  this.city    =  city; 
 	}
 	
-	console.log("added something");
-
-	function load() {
-		
-		document.getElementById("name").focus();
-		
+	function load() {		
+		document.getElementById("name").focus();		
 	}
 	   
 	function nameValidate() {	    	
