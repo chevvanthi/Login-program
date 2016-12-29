@@ -28,8 +28,18 @@ var namearr=[];
      	  this.city    =  city; 
 	}
 	
+<<<<<<< HEAD
 	function load() {		
 		document.getElementById("name").focus();		
+=======
+	console.log("added something");
+	console.log("last line deleted");
+
+	function load() {
+		
+		document.getElementById("name").focus();
+		
+>>>>>>> parent of fd58a6b... test
 	}
 	   
 	function nameValidate() {	    	
