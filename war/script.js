@@ -29,7 +29,6 @@ var namearr=[];
 	}
 	
 	console.log("added something");
-	console.log("last line deleted");
 
 	function load() {
 		
