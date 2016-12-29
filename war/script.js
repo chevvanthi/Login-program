@@ -29,6 +29,8 @@ var namearr=[];
 	}
 	
 	console.log("added something");
+	console.log("Again adding");
+	console.log("Added");
 
 	function load() {
 		
