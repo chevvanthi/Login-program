@@ -252,7 +252,8 @@ var namearr=[];
   
    function dontRevert(){
 	   console.log("Please dont revert this commit");
-	   console.log("New line");
+	   console.log("First line");
+	   console.log("second line");
    }
 
   
