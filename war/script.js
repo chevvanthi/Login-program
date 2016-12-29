@@ -30,8 +30,10 @@ var namearr=[];
 	
 
 	function load() {
+		
 		document.getElementById("name").focus();
-		}
+		
+	}
 	   
 	function nameValidate() {	    	
 	    
